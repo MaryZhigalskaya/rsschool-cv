@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-{
+html{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
+  font-family: 'Poppins', sans-serif;}
 
 body {
   background: #292929;
@@ -18,7 +17,7 @@ body {
   left: 0;
   width: 100%;
   padding: 20px 10%;
-  background: 131313;
+  background: #131313;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,13 +40,13 @@ body {
   transition: .3s;
 }
 
-.navbar a:hover: {
+.navbar a:hover {
   color: #ededed;
 }
 
 .about {
   height: 100vh;
-  background: url('C:\Users\Mariya\Desktop\photo_2024-07-07_15-38-47.jpg') no-repeat;
+  background: url('https://i.postimg.cc/ZqpPP3Wb/photo-2024-07-07-15-38-47.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -153,7 +152,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 40px;
-  height: 40 px;
+  height: 40px;
   background: transparent;
   border: 2px solid #7a6b80;
   border-radius: 50%;
